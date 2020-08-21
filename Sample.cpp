@@ -7,6 +7,6 @@ int main(int argc, char **argv)
         std::cout << "--arg1 and --arg2 are required." << std::endl;
         return -1;
     }
-    string arg1 = opts.get_value("--arg1");
+    std::string arg1 = opts.get_value("--arg1");
     return 0;
 }
